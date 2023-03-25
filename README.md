@@ -1,7 +1,8 @@
-# AWSPowerShell
+# AWS Tools for PowerShell
 
+REFERENCE :  https://docs.aws.amazon.com/powershell/index.html
 
-To Install AWS PowerShell Script run the below line,
+To Install AWS PowerShell Module run the below line,
 
 ####################################################################################################
 
