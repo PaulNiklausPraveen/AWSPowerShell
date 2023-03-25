@@ -3,7 +3,7 @@
 
 To Install AWS PowerShell Script run the below line,
 
-############################################################################################# 
+####################################################################################################
 
 #Require Powershell 7   
 
@@ -17,9 +17,10 @@ Install-Module -name AWSPowerShell.NetCore -Scope CurrentUser -Force -AllowClobb
 }
 
 Write-Host "Importing module..."
+
 Import-Module AWSPowerShell.NetCore -Force -Verbose
  
 Get-AWSPowerShellVersion
 
 
-################################################################################################
+#######################################################################################################
