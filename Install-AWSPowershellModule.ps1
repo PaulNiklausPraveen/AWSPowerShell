@@ -1,6 +1,5 @@
 #Install Powershell Modules for AWS
 
-
 #Requires -Version  Powershell 7   
 
 If(!(Get-Module AWSPowerShell.NetCore))
