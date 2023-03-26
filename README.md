@@ -1,3 +1,0 @@
-# AWS Tools for PowerShell
-
-
