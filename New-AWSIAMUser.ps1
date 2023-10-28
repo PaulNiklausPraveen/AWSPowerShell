@@ -22,5 +22,6 @@ Set-AWSCredential `
 
 Set-AWSCredentials -ProfileName AWS-PaulProfile
 
-New-IamUser -UserName PaulPraveen -Passthru
+$AWSIAMUserName="PaulPraveen"
+New-IamUser -UserName $AWSIAMUserName -Passthru
 Get-IAMUser -UserName PaulPraveen | Format-Table UserName,UserId,Arn
